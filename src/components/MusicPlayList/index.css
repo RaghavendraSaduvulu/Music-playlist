@@ -1,0 +1,156 @@
+.music-playlist-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #152850;
+}
+.music-banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  padding: 40px;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.banner-heading {
+  margin: 0;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 30px;
+  color: #ffffff;
+}
+.banner-title {
+  margin: 0;
+  margin-top: 5px;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* title search container */
+.title-with-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.title {
+  align-self: center;
+  margin: 0;
+  margin-left: 40px;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 26px;
+  color: #ffffff;
+}
+.search-container {
+  border: 2px solid #cbd5e1;
+  align-self: center;
+  margin-right: 40px;
+  border-radius: 4px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-input {
+  padding-left: 5px;
+  align-self: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.search-icon {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+}
+
+.not-found-container {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.no-found-heading {
+  font-family: roboto;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.tracks-list {
+  list-style-type: none;
+  padding: 0px 40px;
+  margin: 0;
+  height: 60%;
+  margin-bottom: 20px;
+  overflow-y: auto;
+}
+
+.tracts-list-item {
+  margin-bottom: 10px;
+}
+.tract-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tract-details {
+  display: flex;
+}
+.tract-img {
+  align-self: center;
+  width: 25%;
+  border-radius: 4px;
+}
+.tract-item-name-with-genre {
+  align-self: center;
+}
+.item-name {
+  margin: 5px 10px;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+.genre {
+  margin: 5px 10px;
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #3b82f6;
+}
+.duration-with-delete {
+  align-self: center;
+  display: flex;
+}
+.duration {
+  align-self: center;
+  font-size: 20px;
+  font-family: robot;
+  font-weight: 500;
+  padding: 0px 20px;
+  color: #ffffff;
+}
+.delete-btn {
+  align-self: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.delete-icon {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+}
